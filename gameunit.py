@@ -3,6 +3,8 @@
 
 
 class Attacker:
+    def __init__(self):
+        pass
     _health = None
     _attack = None
 
@@ -11,4 +13,3 @@ class Attacker:
 
     def is_alive(self):
         return self._health > 0
-    
